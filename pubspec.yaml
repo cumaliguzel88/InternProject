@@ -1,0 +1,35 @@
+name: binamod
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  smooth_page_indicator: ^1.2.0+3
+  lottie: ^3.1.2
+  google_nav_bar: ^5.0.6
+  google_maps_flutter: ^2.5.3
+  geocoding: ^3.0.0
+  flutter_google_street_view: ^3.1.1
+  image_picker: ^1.1.2
+  flutter_launcher_icons: ^0.13.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+  flutter_lints: ^3.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/binamod.jpg"
+
+flutter:
+  uses-material-design: true
